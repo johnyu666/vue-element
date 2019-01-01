@@ -16,14 +16,11 @@
 </template>
 
 <script>
-  import a1 from '../assets/router.png'
-  import a2 from '../assets/components.png'
-  import a3 from '../assets/vuex.png'
-
+  let images=[require('../assets/router.png'),require('../assets/components.png'),require('../assets/vuex.png')]
     export default {
-        name: "Home",
+      name: "Home",
       data(){
-          return {imgs:[a1,a2,a3]}
+          return {imgs:images}
       }
     }
 </script>
